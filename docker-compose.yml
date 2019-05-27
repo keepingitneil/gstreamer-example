@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  rtc-ingest:
+    build: . 
+    environment:
+      - STOOD_ENV=dev
+      - GST_DEBUG=3
+    volumes:
+      - "/tmp/dot_files:/tmp/dot_files"
+  client-test:
+    build: integration_tests/inbound_outbound/.

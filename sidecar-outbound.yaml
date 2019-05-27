@@ -1,0 +1,5 @@
+service-name: rtc-outbound
+port: 8442
+public-network: true
+health-check: false
+ws: true

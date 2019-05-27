@@ -1,0 +1,5 @@
+service-name: rtc-ingest
+port: 8342
+public-network: false
+health-check: false
+ws: true
