@@ -1,4 +1,4 @@
-FROM keepingitneil/gstreamer-1.14.1
+FROM keepingitneil/gstreamer-1.16.0
 
 RUN apt install -y python3-pip && \
     apt-get update && \
